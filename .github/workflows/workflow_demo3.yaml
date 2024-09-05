@@ -20,7 +20,7 @@ jobs:
       with:
         serverUrl: http://163c6cdd.ngrok.io
         username: admin
-        password: ${{ secrets.password }}
+        password: ${{ secrets.PASSWORDNEXUS }}
         format: maven2
         repository: maven-releases
         coordinates: groupId=com.example artifactId=app version=1.0.0
