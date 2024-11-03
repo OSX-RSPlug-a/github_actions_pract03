@@ -1,4 +1,5 @@
 name: Continuos Integration
+
 run-name: ${{ github.actor }} is testing out Java with Nexus Repository
 on: [pull_request]
 
